@@ -1,0 +1,30 @@
+{
+  "name": "@leostacowski/pkgs",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/leostacowski/pkgs#readme",
+  "bugs": {
+    "url": "https://github.com/leostacowski/pkgs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leostacowski/pkgs.git"
+  },
+  "license": "Unlicense",
+  "author": {
+    "name": "leostacowski",
+    "email": "leonardo.stacowski@hotmail.com",
+    "url": "https://github.com/leostacowski/"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./modules/index.js",
+    "./logger": "./modules/logger/index.js"
+  },
+  "imports": {
+    "#logger/*": "./modules/logger/*"
+  },
+  "scripts": {
+    "dev": "node --watch ./modules/index.js"
+  }
+}
