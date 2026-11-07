@@ -1,7 +1,7 @@
 {
   "name": "@leostacowski/pkgs",
   "version": "0.0.0",
-  "description": "",
+  "description": "Centralized package of reusable javascript tools.",
   "homepage": "https://github.com/leostacowski/pkgs#readme",
   "bugs": {
     "url": "https://github.com/leostacowski/pkgs/issues"
@@ -16,7 +16,13 @@
     "email": "leonardo.stacowski@hotmail.com",
     "url": "https://github.com/leostacowski/"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
+  "files": [
+    "modules"
+  ],
   "exports": {
     ".": "./modules/index.js",
     "./logger": "./modules/logger/index.js"
@@ -25,6 +31,7 @@
     "#logger/*": "./modules/logger/*"
   },
   "scripts": {
-    "dev": "node --watch ./modules/index.js"
+    "dev": "node --watch ./modules/index.js",
+    "deploy": "npm publish"
   }
 }
