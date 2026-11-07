@@ -12,17 +12,14 @@ After a long time repeatedly starting things from scratch:
 I decided to finally create a centralized repo for my scripts.
 ```
 
-This decision was directly inspired by Eskil Steenberg's talk: "_[You should finish your software](https://youtu.be/EGLoKbBn-VI?si=uFVlbKIcRolcOzCy)_" from BSC 2025.
+Directly inspired by Eskil Steenberg's talk: "_[You should finish your software](https://youtu.be/EGLoKbBn-VI?si=uFVlbKIcRolcOzCy)_".
 
 If you are using any of these packages and:
 
 1. Something is breaking;
 2. Have any suggestions.
 
-Please reach out via:
-
-- [Linkedin](https://www.linkedin.com/in/leonardo-ribeiro-stacowski/);
-- [Opening an Issue](https://github.com/leostacowski/pkgs/issues/).
+Please [open an Issue](https://github.com/leostacowski/pkgs/issues/).
 
 I intend to keep adding stuff to this repo as long as I continue to reinvent the wheel!
 
